@@ -104,10 +104,10 @@ codegen-units = 256
 [workspace.dependencies]
 ansi_colours = "1.2.3"
 anstyle = "1.0.13"
-anyhow = "1.0.100"
+anyhow = "1.0.101"
 bstr = "1.12.0"
-cc = "1.2.44"
-clap = { version = "4.5.51", features = [
+cc = "1.2.55"
+clap = { version = "4.5.57", features = [
   "cargo",
   "derive",
   "env",
@@ -115,7 +115,7 @@ clap = { version = "4.5.51", features = [
   "string",
   "unstable-styles",
 ] }
-clap_complete = "4.5.60"
+clap_complete = "4.5.65"
 clap_complete_nushell = "4.5.10"
 crc32fast = "1.5.0"
 ctor = "0.2.9"
@@ -126,26 +126,26 @@ fs4 = "0.12.0"
 glob = "0.3.3"
 heck = "0.5.0"
 html-escape = "0.2.13"
-indexmap = "2.11.4"
+indexmap = "2.12.1"
 indoc = "2.0.6"
 libloading = "0.8.9"
-log = { version = "0.4.28", features = ["std"] }
+log = { version = "0.4.29", features = ["std"] }
 memchr = "2.7.6"
 once_cell = "1.21.3"
 pretty_assertions = "1.4.1"
 rand = "0.8.5"
-regex = "1.11.3"
-regex-syntax = "0.8.6"
+regex = "1.12.3"
+regex-syntax = "0.8.9"
 rustc-hash = "2.1.1"
-schemars = "1.0.4"
+schemars = "1.0.5"
 semver = { version = "1.0.27", features = ["serde"] }
 serde = { version = "1.0.219", features = ["derive"] }
-serde_json = { version = "1.0.145", features = ["preserve_order"] }
+serde_json = { version = "1.0.149", features = ["preserve_order"] }
 similar = "2.7.0"
 smallbitvec = "2.6.0"
 streaming-iterator = "0.1.9"
 tempfile = "3.23.0"
-thiserror = "2.0.17"
+thiserror = "2.0.18"
 tiny_http = "0.12.0"
 topological-sort = "0.2.2"
 unindent = "0.2.4"
